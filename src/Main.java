@@ -67,18 +67,18 @@ public class Main {
         var boxer1 = 78.2;
         var boxer2 = 82.7;
         var boxers = boxer1 + boxer2;
-        System.out.println("Общий вес двух бойцов"+ boxers +"кг");
+        System.out.println("Общий вес двух бойцов " + boxers + " кг");
         var overload = (boxer2 - boxer1);
-        System.out.println("Разница между весами бойцов" + overload +"кг");
+        System.out.println("Разница между весами бойцов " + overload + " кг");
     }
     public static void task7() {
         System.out.println("Задача 7");
         var boxer1 = 78.2;
         var boxer2 = 82.7;
         var overload = (boxer2 - boxer1);
-        System.out.println("Разница между весами бойцов" + overload +"кг");
+        System.out.println("Разница между весами бойцов " + overload + " кг");
         var overload2 = (boxer2 % boxer1);
-        System.out.println("Разница между весами бойцов" + overload2 +"кг");
+        System.out.println("Разница между весами бойцов " + overload2 + " кг");
     }
     public static void task8() {
         System.out.println("Задача 8");
@@ -86,9 +86,9 @@ public class Main {
         var workingDay = 20;
         var time = 8;
         var workers = (allTime / workingDay) / time;
-        System.out.println("Всего работников в компании" + workers + "человека");
+        System.out.println("Всего работников в компании " + workers + " человека");
         var workers2 = workers + 94;
         var allTime2 = workers2 * time * workingDay;
-        System.out.println("Если в компании работает" + workers2 + "человек, то всего" + allTime2 + "часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + workers2 + " человек, то всего " + allTime2 + " часов работы может быть поделено между сотрудниками");
     }
 }
